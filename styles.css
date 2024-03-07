@@ -1,0 +1,85 @@
+input[type="radio"]
+{
+    width:40px;
+    height:20px;
+    
+}
+
+.btn{
+    padding:2rem 5rem;
+    display:flex;
+    
+}
+
+button{
+    padding: 0 2rem;
+    height:2rem;
+    border-radius:3rem;
+    width:0 2rem;
+    background-color: rgb(26, 153, 231);
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 0.7rem;
+    
+
+}
+
+li{
+    list-style:none;
+    min-width:40%;
+    
+    align-items: center;
+    min-height:5rem;
+    border-radius:5rem;
+    
+    padding:0 5rem 0 3rem;
+    font-size:1.5rem;
+    font-weight:bold;
+    display:flex;
+    justify-content:flex-start;
+    
+
+
+}
+label{
+    padding-left:1rem;
+    padding-right: 1rem; 
+    border-style: groove ;
+   
+    border-radius: 0.9rem;
+}
+body{
+    background-image:linear-gradient(rgb(151, 249, 181),rgb(78, 192, 238));
+    
+}
+
+#quiz{
+    background-color:white;
+    margin:3rem;
+    box-align:center;
+    border-radius: 0.9rem;
+    padding-top: 1.3rem;
+    padding-left:1.3rem;
+
+}
+.result{
+    width:100%;
+    height:auto;
+    padding-right:5rem;
+    padding-bottom: 3rem;;
+    border-radius:0.5rem;
+    display:flex;
+    flex-direction:column;
+    gap:2.4rem;
+    align-items:center;
+
+}
+.result h2{
+    font-size:2rem;
+}
+.result p{
+    font-size:10rem;
+
+}
+
+
